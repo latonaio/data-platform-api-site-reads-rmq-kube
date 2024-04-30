@@ -1,0 +1,96 @@
+{
+	"connection_key": "request",
+	"result": true,
+	"redis_key": "abcdefg",
+	"filepath": "/var/lib/aion/Data/rededge_sdc/abcdef.json",
+	"api_status_code": 200,
+	"runtime_session_id": "boi9ar543dg91ipdnspi099u231280ab0v8af0ew",
+	"business_partner": 1001,
+	"service_label": "SITE",
+	"api_type": "reads",
+	"Site": {
+		"Site": 1,
+		"SiteType": "TEST",
+		"SiteOwner": 1,
+		"SiteOwnerBusinessPartnerRole": "SHOP",
+		"Brand": 1,
+		"PersonResponsible": "TEST",
+		"ValidityStartDate": "2024-04-01",
+		"ValidityStartTime": "00:00:00",
+		"ValidityEndDate": "9999-12-31",
+		"ValidityEndTime": "23:59:59",
+		"DailyOperationStartTime": "10:00:00",
+		"DailyOperationEndTime": "21:00:00",
+		"Description": "Test Site",
+		"LongText": "Test Site Long Text",
+		"Introduction": "Test Site Introduction",
+		"OperationRemarks": "Test Operation Remarks",
+		"PhoneNumber": "03-0000-0000",
+		"AvailabilityOfParking": true,
+		"NumberOfParkingSpaces": 300,
+		"SuperiorSite": null,
+		"Project": null,
+		"WBSElement": null,
+		"Tag1": "",
+		"Tag2": "",
+		"Tag3": "",
+		"Tag4": "",
+		"PointConsumptionType": "0001",
+		"CreationDate": "",
+		"CreationTime": "",
+		"LastChangeDate": "",
+		"LastChangeTime": "",
+		"IsReleased": null,
+		"IsMarkedForDeletion": null,
+		"HeaderDoc": [
+			{
+				"DocType": "",
+				"DocVersionID": null,
+				"DocID": "",
+				"FileExtension": "",
+				"FileName": "",
+				"FilePath": "",
+				"DocIssuerBusinessPartner": null
+			}
+		],
+		"Partner": [
+			{
+				"PartnerFunction": "",
+				"BusinessPartner": null,
+				"BusinessPartnerFullName": "",
+				"BusinessPartnerName": "",
+				"Organization": "",
+				"Country": "",
+				"Language": "",
+				"Currency": "",
+				"ExternalDocumentID": "",
+				"AddressID": null,
+				"EmailAddress": ""
+			}
+		],
+		"Address": [
+			{
+				"AddressID": null,
+				"PostalCode": "",
+				"LocalSubRegion": "",
+				"LocalRegion": "",
+				"Country": "",
+				"GlobalRegion": "",
+				"District": "",
+				"TimeZone": "",
+				"StreetName": "",
+				"CityName": "",
+				"Building": "",
+				"Floor": null,
+				"Room": null,
+				"XCoordinate": null,
+				"YCoordinate": null,
+				"ZCoordinate": null
+			}
+		]
+	},
+	"api_schema": "DPFMSiteReads",
+	"accepter": [
+		"Header"
+	]
+}

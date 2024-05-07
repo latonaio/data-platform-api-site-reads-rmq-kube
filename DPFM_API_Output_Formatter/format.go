@@ -47,6 +47,8 @@ func ConvertToHeader(rows *sql.Rows) (*[]Header, error) {
 			&pm.CreationTime,
 			&pm.LastChangeDate,
 			&pm.LastChangeTime,
+			&pm.CreateUser,
+			&pm.LastChangeUser,
 			&pm.IsReleased,
 			&pm.IsMarkedForDeletion,
 
@@ -89,6 +91,8 @@ func ConvertToHeader(rows *sql.Rows) (*[]Header, error) {
 			CreationTime:					data.CreationTime,
 			LastChangeDate:					data.LastChangeDate,
 			LastChangeTime:					data.LastChangeTime,
+			CreateUser:						data.CreateUser,
+			LastChangeUser:					data.LastChangeUser,
 			IsReleased:						data.IsReleased,
 			IsMarkedForDeletion:			data.IsMarkedForDeletion,
 		})

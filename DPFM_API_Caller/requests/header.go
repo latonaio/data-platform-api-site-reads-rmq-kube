@@ -32,6 +32,8 @@ type Header struct {
 	CreationTime					string	`json:"CreationTime"`
 	LastChangeDate					string	`json:"LastChangeDate"`
 	LastChangeTime					string	`json:"LastChangeTime"`
+	CreateUser						int		`json:"CreateUser"`
+	LastChangeUser					int		`json:"LastChangeUser"`
 	IsReleased						*bool	`json:"IsReleased"`
 	IsMarkedForDeletion				*bool	`json:"IsMarkedForDeletion"`
 }
